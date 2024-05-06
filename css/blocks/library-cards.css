@@ -1,0 +1,158 @@
+.library-cards {
+	padding-bottom: 40px;
+}
+
+.library-cards__blok {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.find-card {
+	max-width: 600px;
+}
+
+.find-card__title {
+	margin-bottom: 30px;
+	font-size: 30px;
+	font-weight: 400;
+	letter-spacing: 0.6px;
+	text-align: center;
+	line-height: normal;
+}
+
+.find-card__form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px 20px 25px;
+	border: 3px solid var(--light-brown);
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.find-card__fieldset {
+	margin-bottom: 20px;
+	padding: 20px 20px 25px;
+	background: var(--light-brown);
+}
+
+.find-card__legend {
+	margin-bottom: 20px;
+	color: var(--black);
+	font-family: Forum;
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 50px;
+	letter-spacing: 0.6px;
+}
+
+.find-card__input {
+	padding: 8px 20px;
+	width: 520px;
+	height: 66px;
+	border-radius: 10px;
+	background: #fff;
+}
+
+.find-card__input:not(:last-child) {
+	margin-bottom: 25px;
+}
+
+input::placeholder {
+	color: var(--silver);
+	font-family: Forum;
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 50px;
+	letter-spacing: 0.6px;
+}
+
+.find-card__btn {
+	padding: 9px 40px;
+	color: var(--black-amber);
+	text-align: center;
+	font-family: Inter;
+	font-size: 20px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	border-radius: 2px;
+	border: 1px solid var(--black-amber);
+	transition: all 0.3s ease;
+}
+
+.find-card__btn:hover {
+	border-color: var(--light-brown);
+	background: var(--light-brown);
+}
+
+.get-card {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	gap: 36px;
+}
+
+.get-card__title {
+	color: var(--black);
+	text-align: center;
+	font-family: Forum;
+	font-size: 30px;
+	font-weight: 400;
+	letter-spacing: 0.6px;
+}
+
+.get-card__subtitle {
+	max-width: 460px;
+	color: var(--black);
+	font-family: Inter;
+	text-align: right;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 40px;
+	letter-spacing: 0.4px;
+}
+
+.get-card__btn {
+	min-width: 75px;
+	padding: 8px 14px;
+	color: var(--black-amber);
+	text-align: center;
+	font-family: Inter;
+	font-size: 10px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	border-radius: 2px;
+	border: 1px solid var(--black-amber);
+	transition: all 0.3s ease;
+}
+
+.get-card__btn:hover {
+	border-color: var(--light-brown);
+	background: var(--light-brown);
+}
+
+.get-card__btn:first-child {
+	margin-right: 15px;
+}
+
+@media (max-width: 1100px) {
+	.library-cards__blok {
+		justify-content: center;
+		align-items: center;
+	}
+
+	.find-card {
+		margin-bottom: 23px;
+	}
+
+	.get-card {
+		justify-content: center;
+		align-items: center;
+		gap: 40px;
+	}
+
+	.get-card__subtitle {
+		max-width: 600px;
+		text-align: center;
+	}
+}

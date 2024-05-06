@@ -1,0 +1,10 @@
+:root {
+	--font-main: 'Inter', sans-serif;
+	--font-accent: 'Forum', serif;
+
+	--white: #ffffff;
+	--black: #000000;
+	--black-amber: #0c0c0e;
+	--light-brown: #bb945f;
+	--silver: #8e8e8e;
+}

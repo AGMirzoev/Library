@@ -1,0 +1,14 @@
+@import 'base/reset.css';
+@import 'base/fonts.css';
+@import 'base/vars.css';
+@import 'base/base.css';
+@import 'blocks/header.css';
+@import 'blocks/burger-menu.css';
+@import 'blocks/modal.css';
+@import 'blocks/welcome.css';
+@import 'blocks/about.css';
+@import 'blocks/favorites.css';
+@import 'blocks/coffee-shop.css';
+@import 'blocks/contacts.css';
+@import 'blocks/library-cards.css';
+@import 'blocks/footer.css';

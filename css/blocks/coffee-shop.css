@@ -1,0 +1,81 @@
+.coffee-shop {
+	padding-bottom: 40px;
+}
+
+.coffee-shop__text {
+	margin-bottom: 42px;
+	color: var(--black);
+	font-family: Inter;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 40px;
+	letter-spacing: 2px;
+	text-align: center;
+}
+
+.coffee-shop__card {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.coffee-shop__menu {
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+}
+
+.coffee-shop__menu-desserts {
+	align-items: flex-end;
+}
+
+.coffee-shop__title {
+	color: var(--light-brown);
+	font-family: Forum;
+	font-size: 40px;
+	font-weight: 400;
+	line-height: 40px;
+	letter-spacing: 2px;
+}
+.coffee-shop__item {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 59px;
+}
+
+.coffee-shop__name {
+	margin-right: auto;
+	color: var(--black);
+	font-family: Inter;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 40px;
+	letter-spacing: 2px;
+}
+
+.coffee-shop__line {
+	width: 100px;
+	height: 1px;
+	background-color: var(--light-brown);
+}
+
+.coffee-shop__price {
+	color: var(--black);
+	font-family: Forum;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 40px;
+	letter-spacing: 2px;
+}
+
+@media (max-width: 1024px) {
+	.coffee-shop__menu-desserts {
+		margin-left: auto;
+		margin-top: 40px;
+	}
+	.coffee-shop__text {
+		width: 101%;
+	}
+}
