@@ -6,14 +6,11 @@ export function favoritesTabs() {
 		element.style.opacity = 0
 		setTimeout(function () {
 			element.style.display = 'none'
-		}, 500) // совпадает с длительностью анимации в CSS
+		}, 500)
 	}
 
 	function fadeIn(element) {
-		// Небольшая задержка перед началом анимации
-		setTimeout(function () {
-			element.style.display = 'block'
-		}, 500)
+		element.style.display = 'block'
 		element.style.opacity = 1
 	}
 
